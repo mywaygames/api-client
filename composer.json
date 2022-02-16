@@ -1,0 +1,20 @@
+{
+    "name": "mywaygames/api-client",
+    "description": "A PHP API client for Myway Games shop API",
+	"license": [
+       "MIT"
+    ],
+    "authors": [
+        {
+            "name": "MywayGames Dev",
+            "email": "dev@myway-games.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "MywayGames\\": "src/" }
+    },
+	"require":{
+		"guzzlehttp/guzzle": "^7.0"
+	},
+    "minimum-stability": "dev"
+}
